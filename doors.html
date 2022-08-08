@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="doors.css" type="text/css"> 
+        <script type="text/javascript" src="doors.js"></script>
+        <link rel="shortcut icon" href="../assets/images/logo.svg" type="image/x-icon">  
+        <title>קופסת בריחה</title>
+    </head>
+    <body>
+        <img src="assets/media/tillLogo.svg" class="tillLogo">
+        <img src="assets/media/bahad7logo.png" class="bahad7logo"> 
+        <video src="assets/media/video.mp4" controls id="startVideo"></video>
+        <div id="closeVideoBtn" class="closeVideo">סגור סרטון</div>
+        <div id="showVideoBtn" class="backToVideo">בחזרה לסרטון</div>
+        <div id="continueBtn" class="backToVideo">המשך</div>
+        <img class="door" src="assets/media/door.png"  id="door1">
+        <img class="door" src="assets/media/door.png"  id="door2">
+        <img class="door" src="assets/media/door.png"  id="door3">
+        <div id="question" class="questionBackground"><p class="doorQuestions" id="doorQuestion"></p>
+            <div class="optionsContainer" id="removeListeners">
+            <img src="../assets/media/close.png" class="X" id="X" @click="closeQuestion">
+            <div class="options" id="option1"></div>
+            <div class="options" id="option2"></div>
+            <div class="options" id="option3"></div>
+            </div>
+            </div>
+            <div id="tryAgain">נסה שוב</div>
+    </body>
+</html>
+ 

@@ -1,0 +1,185 @@
+@font-face {
+    font-family: "rubik-black";
+    src: url("assets/fonts/Rubik-Black.ttf");
+  }
+  
+  @font-face {
+    font-family: "rubik";
+    src: url("assets/fonts/Rubik-Regular.ttf");
+  }
+
+html {
+    background-color: #E4FCFF;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+video {
+    position: absolute;
+    width: 80vw;
+    height: 25vh;
+    z-index: 4;
+    top: 30vh;
+    left: 10vw;
+}
+
+.tillLogo {
+    position: absolute;
+    width: 15vw;
+    left: 5vw;
+    top: 2vh;
+}
+  
+  .bahad7logo {
+    position: absolute;
+    width: 16vw;
+    top: 1vh;
+    left: 82vw;
+}
+
+.closeVideo {
+    font-family: "rubik";
+    font-size: 3vmax;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.582);
+    width: 45vw;
+    border-radius: 30%;
+    padding: 1vh;
+    position: absolute;
+    top: 80vh;
+    left: 25vw;
+}
+
+.backToVideo {
+    font-family: "rubik";
+    font-size: 3vmax;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.582);
+    width: 45vw;
+    border-radius: 30%;
+    padding: 1vh;
+    position: absolute;
+    top: 80vh;
+    left: 25vw;
+    display: none;
+}
+
+.door {
+    width: 25vw;
+    height: 50vh;
+    z-index: 1;
+}
+  
+  #door1 {
+    position: absolute;
+    left: 68vw;
+    top: 15vh;
+    display: none;
+}
+  
+  #door2 {
+    position: absolute;
+    left: 38vw;
+    top: 15vh;
+    display: none;
+}
+  
+  #door3 {
+    position: absolute;
+    left: 6vw;
+    top: 15vh;
+    display: none;
+}
+
+.questionBackground {
+    background-color: white;
+    width: 80vw;
+    height: 40vh;
+    border-radius: 20%;
+    position: absolute;
+    z-index: 2;
+    left: 10vw;
+    top: 20vh;
+    display: none;
+}
+
+.doorQuestions {
+    font-family: "rubik";
+    text-align: center;
+    font-size: 3vmax;
+    position: relative;
+    top: 6vh;
+    direction: rtl;
+}
+
+.X {
+    width: 6vw;
+    height: 3.5vh;
+    position: absolute;
+    left: 65vw;
+    bottom: 34vh;
+}
+
+.options {
+    width: 22vw;
+    height: 7vh;
+    background-color:  #D0E9EC;
+    border-radius: 10%;
+    position: relative;
+    margin: 2vw;
+    top: 7vh;
+    left: 1vw;
+    font-family: "rubik-black";
+    text-align: center;
+    padding-top: 3vh;
+}
+  
+.optionsContainer {
+    display: flex;
+    height: 40vh;
+}
+  
+.correctAnswer {
+    background-color: lightgreen;
+}
+  
+.wrongAnswer {
+    background-color: red; 
+}
+
+@keyframes tryAgain {
+    0% {top: -10vh}
+    50%  {top: 3vh;}
+    100%  {top: -14vh;}
+}
+
+@keyframes doorDisappear {
+    100%  {opacity: 0%;}
+}
+
+.tryAgainAnimation {
+    animation: tryAgain 5s forwards ease;
+}
+  
+.doorAnimation {
+    animation: doorDisappear 3s ease forwards;
+}
+
+#tryAgain {
+width: 70vw;
+height: 6vh;
+background-color:  rgba(255, 255, 255, 0.9);
+position: absolute;
+left: 15vw;
+font-family: "rubik";
+text-align: center;
+padding-top: 2vh;
+font-size: 4vmax;
+z-index: 4;
+top: -12vh;
+}
+  
