@@ -8,6 +8,7 @@ window.addEventListener("load", ()=> {
     document.getElementById("option1").addEventListener("click", checkAnswer);
     document.getElementById("option2").addEventListener("click", checkAnswer);
     document.getElementById("option3").addEventListener("click", checkAnswer);
+    document.getElementById("continueBtn").addEventListener("click", next);
 });
 
 let showVideo = true;
@@ -88,5 +89,9 @@ const checkAnswer = (event) => {
           }
         }, 4000);
     }
+}
+
+const next = () => {
+    window.location.href = "words.html";
 }
 
