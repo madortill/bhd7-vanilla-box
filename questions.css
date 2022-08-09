@@ -55,3 +55,104 @@ html {
     top: 86vh;
     left: 35vw;
 }
+
+.questionDiv {
+  position: absolute;
+  width: 85vw;
+  height: 60vh;
+  background-color: white;
+  border-radius: 10%;
+  left: 8vw;
+  top: 23vh;
+}
+
+.questions {
+  font-family: "rubik";
+  direction: rtl;
+  width: 78vw;
+  position: absolute;
+  top: 3vh;
+  text-align: center;
+  left: 4vw;
+}
+
+.answers {
+  font-family: "rubik";
+  top: 45vh;
+  direction: rtl;
+  text-align: right;
+}
+
+#answer1 {
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 100%;
+  width: 4vw;
+  height: 2vh;
+  left: 70vw;
+  top: 18.5vh;
+}
+
+#answer2 {
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 100%;
+  width: 4vw;
+  height: 2vh;
+  left: 70vw;
+  top: 29vh;
+}
+
+#answer3 {
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 100%;
+  width: 4vw;
+  height: 2vh;
+  left: 70vw;
+  top: 39vh;
+}
+
+#answer4 {
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 100%;
+  width: 4vw;
+  height: 2vh;
+  left: 70vw;
+  top: 49vh;
+} 
+
+.sentences {
+  font-family: "rubik";
+  text-align: right;
+  font-size: 2vmax;
+  width: 60vw;
+}
+
+.answersDiv {
+  position: absolute;
+  top: 12.5vh;
+  left: 4vw;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 40vh;
+}
+
+.feedback {
+  position: absolute;
+  width: 20vw;
+  top: 84vh;
+  left: 11vw;
+}
+
+.rightFeedback {
+  display: none;
+}
+
+.wrongFeedback {
+  display: none;
+}

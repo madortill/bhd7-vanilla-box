@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "rubik-black";
+    src: url("assets/fonts/Rubik-Black.ttf");
+  }
+  
+  @font-face {
+    font-family: "rubik";
+    src: url("assets/fonts/Rubik-Regular.ttf");
+  }
+
+  html {
+    background-color: #E4FCFF;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.tillLogo {
+    position: absolute;
+    width: 15vw;
+    left: 5vw;
+    top: 2vh;
+}
+  
+  .bahad7logo {
+    position: absolute;
+    width: 16vw;
+    top: 1vh;
+    left: 82vw;
+}
+  
+  .finishSentence {
+    font-family: "rubik-black";
+    color: black;
+    font-size: 6vmax;
+    position: absolute;
+    text-align: center;
+    top: 10vh;
+    left: 34vw;
+    direction: rtl;
+  }
+  
+  .notebook {
+    position: absolute;
+    width: 80vw;
+    left: 12vw;
+    top: 25vh;
+  }
+  
+  .headlineEnd {
+    position: absolute;
+    font-family: "rubik";
+    color: black;
+    font-size: 3vmax;
+    position: absolute;
+    text-align: center;
+    direction: rtl;
+    top: 28vh;
+    left: 14vw;
+    width: 70vw;
+  }
+  
+  .checkMarks {
+    position: absolute;
+    width: 8vw;
+    left: 70vw;
+  }
+  
+  #check1 {
+    top: 37vh;
+  }
+  
+  #check2 {
+    top: 47vh;
+  }
+  
+  #check3 {
+    top: 57vh;
+  }
+  
+  #check4 {
+    top: 67vh;
+  }
+  
+  .odotBtn {
+    font-family: "rubik";
+    font-size: 3vmax;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.582);
+    width: 45vw;
+    border-radius: 30%;
+    padding: 1vh;
+    position: absolute;
+    top: 85vh;
+    left: 25vw;
+  }
+  
+  .odotDiv {
+    background-color: white;
+    width: 80vw;
+    height: 50vh;
+    border-radius: 20%;
+    position: absolute;
+    z-index: 2;
+    left: 10vw;
+    top: 22vh;
+    font-family: "rubik";
+    color: black;
+    font-size: 3vmax;
+    position: absolute;
+    text-align: center;
+    direction: rtl;
+  }
