@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "rubik-black";
+    src: url("assets/fonts/Rubik-Black.ttf");
+  }
+  
+  @font-face {
+    font-family: "rubik";
+    src: url("assets/fonts/Rubik-Regular.ttf");
+  }
+
+html {
+    background-color: #E4FCFF;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.tillLogo {
+    position: absolute;
+    width: 15vw;
+    left: 5vw;
+    top: 2vh;
+}
+  
+  .bahad7logo {
+    position: absolute;
+    width: 16vw;
+    top: 1vh;
+    left: 82vw;
+}
+
+.headlineQuestions {
+    font-family: "rubik-black";
+    color: black;
+    font-size: 5vmax;
+    position: absolute;
+    text-align: center;
+    left: 12vw;
+    top: 11vh;
+    z-index: 3;
+  }
