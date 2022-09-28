@@ -21,6 +21,6 @@ const openOdot = () => {
     document.getElementById("notebook").style.display = "block";
     document.getElementById("odotDiv").style.display = "none";
     document.getElementById("odotBtn").innerText = "אודות";
-    document.getElementById("finishSentence").innerText = "כל הכבוד!";
+    document.getElementById("finishSentence").innerText = "כל הכבוד";
     }
 }

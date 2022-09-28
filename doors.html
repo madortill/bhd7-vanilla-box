@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="doors.css" type="text/css"> 
-        <script type="text/javascript" src="doors.js"></script>
-        <link rel="shortcut icon" href="../assets/images/logo.svg" type="image/x-icon">  
-        <title>קופסת בריחה</title>
-    </head>
-    <body>
-        <img src="assets/media/tillLogo.svg" class="tillLogo">
-        <img src="assets/media/bahad7logo.png" class="bahad7logo"> 
-        <video src="assets/media/video.mp4" controls id="startVideo"></video>
-        <div id="closeVideoBtn" class="closeVideo">סגור סרטון</div>
-        <div id="showVideoBtn" class="backToVideo">בחזרה לסרטון</div>
-        <div id="continueBtn" class="backToVideo">המשך</div>
-        <img class="door" src="assets/media/door.png"  id="door1">
-        <img class="door" src="assets/media/door.png"  id="door2">
-        <img class="door" src="assets/media/door.png"  id="door3">
-        <div id="question" class="questionBackground"><p class="doorQuestions" id="doorQuestion"></p>
-            <div class="optionsContainer" id="removeListeners">
-            <img src="../assets/media/close.png" class="X" id="X" @click="closeQuestion">
-            <div class="options" id="option1"></div>
-            <div class="options" id="option2"></div>
-            <div class="options" id="option3"></div>
-            </div>
-            </div>
-            <div id="tryAgain">נסה שוב</div>
-    </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="doors.css" type="text/css">
+  <script type="text/javascript" src="doors.js"></script>
+  <link rel="shortcut icon" href="../assets/images/logo.svg" type="image/x-icon">
+  <title>קופסת בריחה</title>
+</head>
+
+<body>
+  <img src="assets/media/tillLogo.svg" class="tillLogo">
+  <img src="assets/media/bahad7logo.png" class="bahad7logo">
+  <video src="assets/media/video.mp4" controls id="startVideo"></video>
+  <img src="./assets/media/closeVideoBtn.svg" id="closeVideoBtn" class="closeVideo">
+  <img src="./assets/media/backToVideoBtn.svg" id="showVideoBtn" class="backToVideo">
+  <img src="./assets/media/continueBtn.svg" id="continueBtn" class="backToVideo">
+  <img class="door" src="./assets/media/blueDoor.svg" id="door1">
+  <img class="door" src="./assets/media/greenDoor.svg" id="door2">
+  <img class="door" src="./assets/media/purpleDoor.svg" id="door3">
+  <p id="underDoor1">16</p>
+  <p id="underDoor2">4</p>
+  <p id="underDoor3">3</p>
+  <div id="question" class="questionBackground">
+    <p class="doorQuestions" id="doorQuestion"></p>
+    <div class="optionsContainer" id="removeListeners">
+      <img src="./assets/media/close.png" class="X" id="X" @click="closeQuestion">
+      <div class="options" id="option1"></div>
+      <div class="options" id="option2"></div>
+      <div class="options" id="option3"></div>
+    </div>
+  </div>
+  <div id="tryAgain">נסה שוב</div>
+</body>
+
 </html>
- 

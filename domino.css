@@ -9,12 +9,15 @@
   }
   
   html {
-    background-color: #E4FCFF;
+    background-image: url("./assets/media/background.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100vw;
     height: 100vh;
     margin: 0;
     overflow: hidden;
-    background-size: 100% 100%;
     position: absolute;
 }
 
@@ -48,7 +51,7 @@
   
   .headlineDomino {
     font-family: "rubik-black";
-    color: black;
+    color: white;
     font-size: 6vmax;
     position: absolute;
     text-align: center;
@@ -61,8 +64,7 @@
     font-family: "rubik";
     font-size: 3vmax;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.582);
-    width: 25vw;
+    width: 35vw;
     border-radius: 30%;
     padding: 0.5vh;
     position: absolute;
@@ -79,7 +81,6 @@
   .tryAgain {
     width: 70vw;
     height: 6vh;
-    background-color:  rgba(255, 255, 255, 0.582);
     position: absolute;
     left: 15vw;
     font-family: "rubik";
